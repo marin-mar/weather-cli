@@ -5,7 +5,16 @@
 
 Для отображения необходим API_KEY
 
-Токен и Город сохраняются в файл [homedir()/'weather-cli-data.json]
+Токен и Город сохраняются в файл 
+[
+	path.join(os.homedir(), 'weather-cli-data.json')
+]
+
+Главный файл: weather.json
+
+Запуск в терминале: 
+- либо 'node weather.js'
+- либо 'npm run start'
 
 ### команды:
 - Без параметров - вывод погоды
